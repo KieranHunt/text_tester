@@ -2,3 +2,9 @@
 name = "text_tester"
 version = "0.1.0"
 authors = ["Kieran Hunt <kieran.hunt92@gmail.com>"]
+
+[dependencies]
+time = "0.1"
+
+[dependencies.dpi_algorithms]
+git = "https://github.com/KieranHunt/dpi_algorithms.git"
