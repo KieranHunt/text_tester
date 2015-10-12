@@ -2,7 +2,7 @@
 
 cargo build > /dev/null;
 
-for i in {1..20}
+for i in {1..1000}
     do
     for algorithm in BoyerMoore Horspool KnuthMorrisPratt Naive RabinKarp Bitap Bloom
     do
