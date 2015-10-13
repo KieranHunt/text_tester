@@ -4,7 +4,7 @@ cargo build > /dev/null;
 
 for i in {1..1000}
     do
-    for algorithm in BoyerMoore Horspool KnuthMorrisPratt Naive RabinKarp Bitap Bloom
+    for algorithm in BoyerMoore Horspool KnuthMorrisPratt Naive RabinKarp Bitap
     do
         for book in $(find /mnt/datapool/kieran/books -name '*.txt');
         do
