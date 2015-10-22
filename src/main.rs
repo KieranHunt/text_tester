@@ -39,7 +39,7 @@ fn main() {
     let mut text = [0; 1000000];
     f.read(&mut text);
 
-    let ruleset = Ruleset::new(Algorithms::Naive, "google".to_string());
+    let ruleset = Ruleset::new(Algorithms::Naive, "amazonaws.com".to_string());
 
     let mut algorithm_ahocorasick = AhoCorasick::new(&ruleset);
     let mut algorithm_bitap = Bitap::new(&ruleset);
